@@ -1,0 +1,5 @@
+<h2>{{ contributorsCount }} Contributors</h2>
+<div *ngFor="#contributor of contributors">
+  <img [src]="contributor.profileImageURL" width="100" height="100" />
+  <h4>{{ contributor.displayName }}</h4>
+</div>
